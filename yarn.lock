@@ -2404,10 +2404,10 @@
   resolved "https://registry.yarnpkg.com/@types/yup/-/yup-0.26.37.tgz#7a52854ac602ba0dc969bebc960559f7464a1686"
   integrity sha512-cDqR/ez4+iAVQYOwadXjKX4Dq1frtnDGV2GNVKj3aUVKVCKRvsr8esFk66j+LgeeJGmrMcBkkfCf3zk13MjV7A==
 
-"@vue-storefront/bigcommerce-api@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@vue-storefront/bigcommerce-api/-/bigcommerce-api-1.0.0-beta.1.tgz#7d6e2e8b4fbfa406f60e3ee82e2aac1530b3b429"
-  integrity sha512-jnAm7ppX282vXYjKClONOx/BmX4CFKMmrZEAD3EMVerjhQ8T6fxw4Jc91w4C3bEFoO5SUQ3auO33yU5F2MwD7w==
+"@vue-storefront/bigcommerce-api@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vue-storefront/bigcommerce-api/-/bigcommerce-api-1.0.0-beta.2.tgz#91a5c7023bf74e1af9225511f5bda6055b741f39"
+  integrity sha512-atkdUWEmzVPR1pgP9niXSyy7trQex+35C9DfLaYnInAF1I90aM3mGf1USwQW2k+jsyOBdtlFb//4+vvafq/u2w==
   dependencies:
     "@vue-storefront/core" "~2.4.3"
     fetch-cookie "^1.0.0"
@@ -2418,12 +2418,12 @@
     set-cookie-parser "^2.4.8"
     uuid "^8.3.2"
 
-"@vue-storefront/bigcommerce@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@vue-storefront/bigcommerce/-/bigcommerce-1.0.0-beta.1.tgz#34b750ab3f6bc24c2623d6f4ccffc4a6a06c2f64"
-  integrity sha512-fJ1hR0yQoOVbK7KZMYi+v6dTNI2BBt6VEoFt3HHoPoHSJNVr2ui01xFd7FADd9d0a5wkc9HDMfasBcFhRdwiJQ==
+"@vue-storefront/bigcommerce@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vue-storefront/bigcommerce/-/bigcommerce-1.0.0-beta.2.tgz#5d8923eea6d413167e201ae070312f95ed722af9"
+  integrity sha512-J/9qMeM2zr2q1aiEkTDfva8LGAZG9AD+6rNJrgKkwWjDsifApdNmne71qFYHQf/mzkM4RRkzXpnX2bExZ8eCGw==
   dependencies:
-    "@vue-storefront/bigcommerce-api" "^1.0.0-beta.1"
+    "@vue-storefront/bigcommerce-api" "^1.0.0-beta.2"
     "@vue-storefront/core" "~2.4.3"
     jsonwebtoken "^8.5.1"
 
