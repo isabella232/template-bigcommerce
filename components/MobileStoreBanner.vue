@@ -1,6 +1,6 @@
 <template>
   <SfBanner
-    image="/homepage/bannerD.png"
+    :image="addBasePath('/homepage/bannerD.png')"
     subtitle="Fashon to take away"
     title="Download our application to your mobile"
     class="sf-banner--left desktop-only banner-app"
@@ -13,7 +13,9 @@
           @click="() => {}"
         >
           <SfImage
-            src="/homepage/apple.png"
+            :src="addBasePath('/homepage/apple.png')"
+            :width="174"
+            :height="57"
             alt="App store"
           />
         </SfButton>
@@ -23,8 +25,10 @@
           @click="() => {}"
         >
           <SfImage
-            src="/homepage/google.png"
+            :src="addBasePath('/homepage/google.png')"
             alt="Google play"
+            :width="174"
+            :height="57"
           />
         </SfButton>
       </div>
@@ -37,12 +41,18 @@ import {
   SfImage,
   SfButton
 } from '@storefront-ui/vue';
+import { addBasePath } from '@vue-storefront/core';
 export default {
   name: 'AppStoreBanner',
   components: {
     SfBanner,
     SfImage,
     SfButton
+  },
+  setup() {
+    return {
+      addBasePath
+    };
   }
 };
 </script>

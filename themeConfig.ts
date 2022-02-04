@@ -1,7 +1,7 @@
 export default {
   itemsPerPage: [10],
   userCartKey: 'Cart ID',
-  channelIds: [1],
+  channelIds: [921432],
   home: {
     bannerA: {
       link: '/',
